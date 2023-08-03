@@ -56,20 +56,20 @@ function Navbar(){
                 <div className="-ml-4 -mt-2  hidden lg:flex flex-wrap items-center justify-between sm:flex-nowrap md:px-4 px-2">
                     <Link to='/' className="ml-4 mt-2">
                     <img
-                        src={'https://bafybeiczl4dcxupma2zeyilkukfl4yge64axnhajd722wxgin62mtts6uy.ipfs.w3s.link/murkivamarketing.png'}
+                        src={'https://bafybeiew7xsf7ofhjqcwwfoya477g4czceckwr3yg5gbqbn3utk5eomz3a.ipfs.w3s.link/logoo.png'}
                         width={160}
                         height={160}
                         className=""
                     />
                     </Link>
                     <div className="ml-4 mt-2 flex-shrink-0">
-                    <NavLink to='/remedios' className="text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 border-transparent hover:border-orange-500 transition duration-500 ease-in-out mx-5">Casos</NavLink>
-                    <NavLink to='/nosotros' className="text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 border-transparent hover:border-orange-500 transition duration-500 ease-in-out mx-5">Servicios</NavLink>
-                    <NavLink to='/contacto' className="text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 border-transparent hover:border-orange-500 transition duration-500 ease-in-out mx-5">Nosotros</NavLink>
+                    <NavLink to='/remedios' className="text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 border-transparent hover:border-orange-500 transition duration-500 ease-in-out mx-5">Remedios</NavLink>
+                    <NavLink to='/nosotros' className="text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 border-transparent hover:border-orange-500 transition duration-500 ease-in-out mx-5">Nosotros</NavLink>
+                    <NavLink to='/contacto' className="text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 border-transparent hover:border-orange-500 transition duration-500 ease-in-out mx-5">Contacto</NavLink>
         
                     <Link
                         to="/contacto"
-                        className="inline-flex ml-10 items-center rounded-md border border-transparent bg-orange-button px-6 py-2.5 text-lg font-medium text-white shadow-sm hover:bg-gray-900 transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2"
+                        className="inline-flex ml-10 items-center rounded-md border border-transparent bg-green-button px-6 py-2.5 text-lg font-medium text-white shadow-sm hover:bg-gray-900 transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
                     >
                         Hire us
                         <span className='px-2'>
