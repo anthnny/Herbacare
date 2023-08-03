@@ -10,7 +10,6 @@ const solutions = [
     {
       name: 'Remedios',
       href: '/remedios',
-      icon: IconOne,
     },
     {
       name: 'Sobre Nosotros',
@@ -20,7 +19,6 @@ const solutions = [
     {
       name: 'Contacto',
       href: '/contacto',
-      icon: IconThree,
     },
   ]
 
@@ -138,64 +136,3 @@ const mapStateToProps=state=>({
 export default connect(mapStateToProps, {
 
 }) (Navbar) 
-
-function IconOne(props) {
-    return (
-      <svg
-        viewBox="0 0 24 24"
-        fill="currentColor"
-        height="1em"
-        width="1em"
-        {...props}
-      >
-        <rect width="48" height="48" rx="8" fill="#FFEDD5" />
-          <path d="M10.84 21.871L12 22a10.221 10.221 0 00-9.013-8.891L2 13l.021.173a10.001 10.001 0 008.819 8.698zm11.139-8.698L22 13l-.987.109c-4.7.523-8.427 4.2-9.013 8.891l1.16-.129a10.001 10.001 0 008.819-8.698zM18.063 5.5a2.5 2.5 0 00-3.415-.915c-.062.035-.111.081-.168.121.005-.069.02-.136.02-.206a2.5 2.5 0 10-5 0c0 .07.015.137.021.206-.057-.04-.107-.086-.168-.121a2.5 2.5 0 00-2.5 4.33c.061.035.126.056.188.085-.062.029-.127.05-.188.085a2.5 2.5 0 002.5 4.33c.062-.035.111-.081.168-.121-.006.069-.021.136-.021.206a2.5 2.5 0 105 0c0-.07-.015-.137-.021-.206.057.04.106.086.168.121a2.5 2.5 0 002.5-4.33c-.061-.035-.126-.056-.188-.085.063-.029.127-.05.188-.085a2.5 2.5 0 00.916-3.415zM12 12a3 3 0 110-6 3 3 0 010 6z" />
-      </svg>
-    )
-  }
-  
-  function IconTwo() {
-    return (
-      <svg
-        width="48"
-        height="48"
-        viewBox="0 0 48 48"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <rect width="48" height="48" rx="8" fill="#FFEDD5" />
-        <path
-          d="M28.0413 20L23.9998 13L19.9585 20M32.0828 27.0001L36.1242 34H28.0415M19.9585 34H11.8755L15.9171 27"
-          stroke="#FB923C"
-          strokeWidth="2"
-        />
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M18.804 30H29.1963L24.0001 21L18.804 30Z"
-          stroke="#FDBA74"
-          strokeWidth="2"
-        />
-      </svg>
-    )
-  }
-  
-  function IconThree() {
-    return (
-      <svg
-        width="48"
-        height="48"
-        viewBox="0 0 48 48"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <rect width="48" height="48" rx="8" fill="#FFEDD5" />
-        <rect x="13" y="32" width="2" height="4" fill="#FDBA74" />
-        <rect x="17" y="28" width="2" height="8" fill="#FDBA74" />
-        <rect x="21" y="24" width="2" height="12" fill="#FDBA74" />
-        <rect x="25" y="20" width="2" height="16" fill="#FDBA74" />
-        <rect x="29" y="16" width="2" height="20" fill="#FB923C" />
-        <rect x="33" y="12" width="2" height="24" fill="#FB923C" />
-      </svg>
-    )
-  }
