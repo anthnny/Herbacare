@@ -9,14 +9,17 @@ import "boxicons";
 const solutions = [
     {
       name: 'Remedios',
+      description: 'Measure actions your users take',
       href: '/remedios',
     },
     {
       name: 'Sobre Nosotros',
+      description: 'Measure actions your users take',
       href: '/nosotros',
     },
     {
       name: 'Contacto',
+      description: 'Measure actions your users take',
       href: '/contacto',
     },
   ]
@@ -98,7 +101,7 @@ function Navbar(){
                               <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                               <div className="relative grid gap-8 bg-white p-7 lg:grid-cols-2">
                                   {solutions.map((item) => (
-                                  <a
+                                  <Link
                                       key={item.name}
                                       href={item.href}
                                       className="-m-3 flex items-center rounded-lg p-2 transition duration-150 ease-in-out hover:bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50"
@@ -110,8 +113,11 @@ function Navbar(){
                                       <p className="text-sm font-medium text-gray-900">
                                           {item.name}
                                       </p>
+                                      <p className="text-sm text-gray-500">
+                                            {item.description}
+                                      </p>
                                       </div>
-                                  </a>
+                                  </Link>
                                   ))}
                               </div>
                               </div>
