@@ -69,7 +69,7 @@ const navigation = {
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
             <div className="space-y-8 xl:col-span-1">
             <img
-                src="https://bafybeiew7xsf7ofhjqcwwfoya477g4czceckwr3yg5gbqbn3utk5eomz3a.ipfs.w3s.link/logoo.png"
+                src={'https://bafybeiew7xsf7ofhjqcwwfoya477g4czceckwr3yg5gbqbn3utk5eomz3a.ipfs.w3s.link/logoo.png'}
                 width={160}
                 height={160} 
                 className=""

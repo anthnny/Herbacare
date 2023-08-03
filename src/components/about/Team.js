@@ -29,7 +29,7 @@ const people = [
                 <li key={person.name}>
                   <div className="space-y-4">
                     <div className="aspect-w-3 aspect-h-3">
-                      <img className="rounded-lg object-cover shadow-lg" src={anthony} alt=""/>
+                      <img className="rounded-lg object-cover shadow-lg" src={'https://bafybeierhukupar4eti4gxpzzuskx6yuo2j2fk2w5k2d5l6o2fvzmhkmzu.ipfs.w3s.link/anthony.jpeg'} alt=""/>
                     </div>
   
                     <div className="space-y-2">
