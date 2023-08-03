@@ -60,7 +60,7 @@ function Navbar(){
               <div className="-ml-4 -mt-2 hidden lg:flex flex-wrap items-center justify-between sm:flex-nowrap md:px-14 px-2">
                   <Link to='/' className="ml-4 mt-2">
                   <img
-                  src={logoo}
+                  src="https://bafybeiew7xsf7ofhjqcwwfoya477g4czceckwr3yg5gbqbn3utk5eomz3a.ipfs.w3s.link/logoo.png"
                   width={160}
                   height={160} 
                   className=""/>
