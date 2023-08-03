@@ -3,9 +3,9 @@ import logoo from 'assets/img/logoo.png'
 
 const navigation = {
     enlaces: [
-      { name: 'Remedios', href: '#' },
-      { name: 'Nosotros', href: '#' },
-      { name: 'Contacto', href: '#' },
+      { name: 'Remedios', href: '/remedios' },
+      { name: 'Nosotros', href: '/nosotros' },
+      { name: 'Contacto', href: '/contacto' },
     ],
     social: [
       {
