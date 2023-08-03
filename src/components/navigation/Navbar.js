@@ -8,28 +8,19 @@ import "boxicons";
 
 const solutions = [
     {
-      name: 'Casos',
-      description: 'Measure actions your users take',
-      href: '/casos',
-      icon: IconOne,
-    },
-    {
       name: 'Remedios',
-      description: 'Measure actions your users take',
       href: '/remedios',
       icon: IconOne,
     },
     {
       name: 'Sobre Nosotros',
-      description: 'Keep track of your growth',
       href: '/nosotros',
       icon: IconThree,
     },
     {
-        name: 'Contacto',
-        description: 'Keep track of your growth',
-        href: '/contacto',
-        icon: IconThree,
+      name: 'Contacto',
+      href: '/contacto',
+      icon: IconThree,
     },
   ]
 
@@ -75,7 +66,7 @@ function Navbar(){
               <div className="-ml-4 -mt-2 lg:hidden flex flex-wrap items-center justify-between sm:flex-nowrap md:px-14 px-2">
                   <Link to='/' className="ml-4 mt-2">
                   <img
-                  src={logoo}
+                  src={'https://bafybeiew7xsf7ofhjqcwwfoya477g4czceckwr3yg5gbqbn3utk5eomz3a.ipfs.w3s.link/logoo.png'}
                   width={160}
                   height={160} 
                   className=""/>
@@ -122,9 +113,6 @@ function Navbar(){
                                       <p className="text-sm font-medium text-gray-900">
                                           {item.name}
                                       </p>
-                                      <p className="text-sm text-gray-500">
-                                          {item.description}
-                                      </p>
                                       </div>
                                   </a>
                                   ))}
@@ -166,35 +154,17 @@ export default connect(mapStateToProps, {
 
 }) (Navbar) 
 
-function IconOne() {
+function IconOne(props) {
     return (
       <svg
-        width="48"
-        height="48"
-        viewBox="0 0 48 48"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        height="1em"
+        width="1em"
+        {...props}
       >
         <rect width="48" height="48" rx="8" fill="#FFEDD5" />
-        <path
-          d="M24 11L35.2583 17.5V30.5L24 37L12.7417 30.5V17.5L24 11Z"
-          stroke="#FB923C"
-          strokeWidth="2"
-        />
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M16.7417 19.8094V28.1906L24 32.3812L31.2584 28.1906V19.8094L24 15.6188L16.7417 19.8094Z"
-          stroke="#FDBA74"
-          strokeWidth="2"
-        />
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M20.7417 22.1196V25.882L24 27.7632L27.2584 25.882V22.1196L24 20.2384L20.7417 22.1196Z"
-          stroke="#FDBA74"
-          strokeWidth="2"
-        />
+          <path d="M10.84 21.871L12 22a10.221 10.221 0 00-9.013-8.891L2 13l.021.173a10.001 10.001 0 008.819 8.698zm11.139-8.698L22 13l-.987.109c-4.7.523-8.427 4.2-9.013 8.891l1.16-.129a10.001 10.001 0 008.819-8.698zM18.063 5.5a2.5 2.5 0 00-3.415-.915c-.062.035-.111.081-.168.121.005-.069.02-.136.02-.206a2.5 2.5 0 10-5 0c0 .07.015.137.021.206-.057-.04-.107-.086-.168-.121a2.5 2.5 0 00-2.5 4.33c.061.035.126.056.188.085-.062.029-.127.05-.188.085a2.5 2.5 0 002.5 4.33c.062-.035.111-.081.168-.121-.006.069-.021.136-.021.206a2.5 2.5 0 105 0c0-.07-.015-.137-.021-.206.057.04.106.086.168.121a2.5 2.5 0 002.5-4.33c-.061-.035-.126-.056-.188-.085.063-.029.127-.05.188-.085a2.5 2.5 0 00.916-3.415zM12 12a3 3 0 110-6 3 3 0 010 6z" />
       </svg>
     )
   }
