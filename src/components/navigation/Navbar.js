@@ -14,7 +14,6 @@ const solutions = [
     {
       name: 'Sobre Nosotros',
       href: '/nosotros',
-      icon: IconThree,
     },
     {
       name: 'Contacto',
