@@ -35,7 +35,7 @@ function Header(){
                   </a>
                 </div>
               </div>
-              <div className="absolute top-[calc(100%-20rem)] -z-10 transform-gpu overflow-hidden bg-white lg:top-[calc(100%-45rem)] sm:top-[calc(100%-30rem)] right-20 w-1/3">
+              <div className="absolute top-[calc(100%-20rem)] -z-10 transform-gpu overflow-hidden bg-white backdrop-blur-lg lg:top-[calc(100%-45rem)] sm:top-[calc(100%-30rem)] right-20 w-1/3">
                 <img src="https://bafybeidlzoertkt2dnsvg75pafwxzll2uughbiuklwi5eeyexbdq7fc7rq.ipfs.w3s.link/herba.png" className='w-full h-auto object-cover'/>
               </div>
             </div>
