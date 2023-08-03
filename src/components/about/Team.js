@@ -4,25 +4,35 @@ const people = [
     {
       name: 'Anthony Lopez',
       role: 'Back-end Desarrollador',
+      imageUrl:
+      'https://bafybeierhukupar4eti4gxpzzuskx6yuo2j2fk2w5k2d5l6o2fvzmhkmzu.ipfs.w3s.link/anthony.jpeg',
       twitterUrl: 'https://twitter.com/AnthnnyL',
     },
     {
       name: 'Anderson Merchan',
+      imageUrl:
+      'https://bafybeif7dn2vmg27qkit5wo35qnitqftvkbrlqldv5xy6mol7onwk52g34.ipfs.w3s.link/anderson.jpeg',
       role: 'Administrador del Proyecto',
       twitterUrl: '#',
     },
     {
       name: 'Dary Pincay',
+      imageUrl:
+      'https://bafybeic7xzqcsuyvsbpplb5gngzz7hpagygaqy7ftpwjgnjyl7d2q5rypa.ipfs.w3s.link/gatogod.jpg',
       role: 'Front-end Developer',
       twitterUrl: '#',
     },
     {
       name: 'Michel Romero',
+      imageUrl:
+      'https://bafybeigdfq6uypbrbamisngwhqrlw27sk37tgritziuho67t4o4rwtllei.ipfs.w3s.link/michel.jpeg',
       role: 'Front-end Developer',
       twitterUrl: '#',
     },
     {
       name: 'Ruben Bones',
+      imageUrl:
+      'https://bafybeifr7lzp332vlza2dblkh3bnzbntosbqnkvbrm32byuojdet2avnmq.ipfs.w3s.link/ruben.jpeg',
       role: 'Front-end Developer',
       twitterUrl: '#',
     },
@@ -48,11 +58,7 @@ const people = [
                 <li key={person.name}>
                   <div className="space-y-4">
                     <div className="aspect-w-3 aspect-h-3">
-                      <img className="rounded-lg object-cover shadow-lg" src={'https://bafybeierhukupar4eti4gxpzzuskx6yuo2j2fk2w5k2d5l6o2fvzmhkmzu.ipfs.w3s.link/anthony.jpeg'} alt=""/>
-                      <img className="rounded-lg object-cover shadow-lg" src={'https://bafybeif7dn2vmg27qkit5wo35qnitqftvkbrlqldv5xy6mol7onwk52g34.ipfs.w3s.link/anderson.jpeg'} alt=""/>
-                      <img className="rounded-lg object-cover shadow-lg" src={'https://bafybeic7xzqcsuyvsbpplb5gngzz7hpagygaqy7ftpwjgnjyl7d2q5rypa.ipfs.w3s.link/gatogod.jpg'} alt=""/>
-                      <img className="rounded-lg object-cover shadow-lg" src={'https://bafybeigdfq6uypbrbamisngwhqrlw27sk37tgritziuho67t4o4rwtllei.ipfs.w3s.link/michel.jpeg'} alt=""/>
-                      <img className="rounded-lg object-cover shadow-lg" src={'https://bafybeifr7lzp332vlza2dblkh3bnzbntosbqnkvbrm32byuojdet2avnmq.ipfs.w3s.link/ruben.jpeg'} alt=""/>
+                      <img className="rounded-lg object-cover shadow-lg" src={person.imageUrl} alt="" />
                     </div>
   
                     <div className="space-y-2">
