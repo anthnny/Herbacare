@@ -66,13 +66,16 @@ function Header(){
                   Conócenos - Nuestro Equipo
                 </h1>
                 <div className="mt-6 text-2xl leading-10 text-black max-w-5xl">
-                Misión:
+                <h2>Misión:</h2>
+                <br/>
                 Promover el conocimiento y el uso responsable de las propiedades terapéuticas de las hierbas medicinales, proporcionando información confiable y valiosa para mejorar la salud y el bienestar de las personas de forma natural.
                 <br/>
-                Visión:
+                <h2>Visión:</h2>
+                <br/>
                 Convertirnos en la plataforma líder en información sobre hierbas medicinales, siendo reconocidos por nuestra precisión, calidad y compromiso con la salud y el medio ambiente.
                 <br/>
-                Propósito:
+                <h2>Propósito:</h2>
+                <br/>
                 Nuestro propósito es empoderar a las personas a través del conocimiento de las plantas medicinales, brindándoles una herramienta confiable para tomar decisiones informadas sobre su bienestar y fomentando un enfoque más holístico hacia la salud.
               </div>
                 <div className="absolute bottom-0 left-0 flex space-x-6 xl:mx-20 mx-6">
