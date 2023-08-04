@@ -1,7 +1,7 @@
+// CategoriesHeader.js
+
 import React, { useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { ArrowRightCircleIcon } from '@heroicons/react/outline';
-import SmallSetPaginationSearch from 'components/pagination/SmallSetPaginationSearch';
 
 function CategoriesHeader({ categories }) {
   const location = useLocation();
@@ -14,7 +14,7 @@ function CategoriesHeader({ categories }) {
   };
   const onSubmit = (e) => {
     e.preventDefault();
-    navigate(`/s=${term}`);
+    navigate(`/search?s=${term}`);
   };
   
   return (
@@ -26,7 +26,6 @@ function CategoriesHeader({ categories }) {
                 <div className="relative -mb-6 w-full overflow-x-auto pb-6">
                     <ul
                         role="list"
-                                
                         className="mx-4 inline-flex space-x-6 sm:mx-6 "
                     >
                         <Link to='/remedios'
@@ -34,7 +33,7 @@ function CategoriesHeader({ categories }) {
                             All
                         </Link>
                         {
-                            categories&&categories.map((category,index)=>(
+                            categories && categories.map((category, index) => (
                                 <Link key={index} to={`/category/${category.slug}`}
                                 className={`${location.pathname === `/category/${category.slug}` ? "text-orange-500 bg-white":"text-gray-900 border border-gray-100 hover:border-gray-200"} py-2 px-6 rounded-md text-lg font-regular`}>
                                     {category.name}
