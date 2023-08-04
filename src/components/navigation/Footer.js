@@ -10,7 +10,7 @@ const navigation = {
     social: [
       {
         name: 'Facebook',
-        href: '#',
+        href: 'https://www.facebook.com/profile.php?id=100095264690806',
         icon: (props) => (
           <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
             <path
@@ -23,7 +23,7 @@ const navigation = {
       },
       {
         name: 'Instagram',
-        href: '#',
+        href: 'https://www.instagram.com/herbacare9/',
         icon: (props) => (
           <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
             <path
@@ -75,7 +75,7 @@ const navigation = {
                 className=""
             />
               <p className="text-base text-gray-500">
-                Making the world a better place through constructing elegant hierarchies.
+                El médico cura, la naturaleza sana.
               </p>
               <div className="flex space-x-6">
               </div>

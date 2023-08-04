@@ -3,7 +3,7 @@ import anthony from 'assets/img/anthony.jpeg'
 const people = [
     {
       name: 'Anthony Lopez',
-      role: 'Back-end Desarrollador',
+      role: 'Desarrollador Full Stack',
       imageUrl:
       'https://bafybeierhukupar4eti4gxpzzuskx6yuo2j2fk2w5k2d5l6o2fvzmhkmzu.ipfs.w3s.link/anthony.jpeg',
       twitterUrl: 'https://twitter.com/AnthnnyL',
@@ -19,21 +19,21 @@ const people = [
       name: 'Dary Pincay',
       imageUrl:
       'https://bafybeic7xzqcsuyvsbpplb5gngzz7hpagygaqy7ftpwjgnjyl7d2q5rypa.ipfs.w3s.link/gatogod.jpg',
-      role: 'Front-end Developer',
+      role: 'Analista de Requerimientos',
       twitterUrl: '#',
     },
     {
       name: 'Michel Romero',
       imageUrl:
       'https://bafybeigdfq6uypbrbamisngwhqrlw27sk37tgritziuho67t4o4rwtllei.ipfs.w3s.link/michel.jpeg',
-      role: 'Front-end Developer',
+      role: 'Especialista en Control de Pruebas',
       twitterUrl: '#',
     },
     {
       name: 'Ruben Bones',
       imageUrl:
       'https://bafybeifr7lzp332vlza2dblkh3bnzbntosbqnkvbrm32byuojdet2avnmq.ipfs.w3s.link/ruben.jpeg',
-      role: 'Front-end Developer',
+      role: 'Especialista en Seguridad',
       twitterUrl: '#',
     },
   ]
@@ -44,10 +44,9 @@ const people = [
         <div className="mx-auto lg:mx-12 max-w-full py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
           <div className="space-y-12">
             <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
-              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Nuestro Team</h2>
+              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Team Developers</h2>
               <p className="text-xl text-gray-500">
-                Odio nisi, lectus dis nulla. Ultrices maecenas vitae rutrum dolor ultricies donec risus sodales. Tempus
-                quis et.
+                Estudiantes de 5to "A1" - Carrera Ingeniera en Software
               </p>
             </div>
             <ul

@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        "green-button": '#b0f54c',
+        "green-button": '#2da110',
         "beish-b": '#ebf3e7',
         "aquam-button": '#7fb395',
         "verdeo-button": '#3c3d29',

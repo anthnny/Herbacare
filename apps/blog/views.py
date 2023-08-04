@@ -3,6 +3,7 @@ from rest_framework.response import Response
 from rest_framework import status
 from rest_framework import permissions
 from slugify import slugify
+from django.http import JsonResponse
 from .models import Post, ViewCount
 from apps.category.models import Category
 
@@ -118,9 +119,7 @@ class SearchBlogView(APIView):
         results = paginator.paginate_queryset(matches, request)
 
         serializer = PostListSerializer(results, many=True)
-        return paginator.get_paginated_response({'filtered_posts': serializer.data})
-    
-    
+        return paginator.get_paginated_response({'filtered_posts': serializer.data})   
     
 class AuthorBlogListView(APIView):
     permission_classes = (permissions.IsAuthenticated,)

@@ -1,57 +1,39 @@
 const posts = [
     {
-      title: 'Boost your conversion rate',
-      href: '#',
-      category: { name: 'Article', href: '#' },
+      title: 'Manzanilla',
+      href: 'https://herbacare.onrender.com/remedios/manzanilla',
+      category: { name: 'Anti Inflamatorias', href: 'https://herbacare.onrender.com/category/anti_inflamatorias' },
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.',
-      date: 'Mar 16, 2020',
-      datetime: '2020-03-16',
+        'La Manzanilla es una planta medicinal popular y versátil que ha sido utilizada durante siglos debido a sus propiedades curativas. También conocida como "camomila", esta hierba aromática es nativa de Europa y se ha extendido a muchas otras partes del mundo debido a sus increíbles beneficios para la salud.',
+      date: 'August 3, 2023',
+      datetime: '2023-08-03',
       imageUrl:
-        'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
-      readingTime: '6 min',
-      author: {
-        name: 'Roel Aufderehar',
-        href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
+        'https://bafybeiej7jvsc3yj6tcm2uvjuhunqdb6oli6j3e5q55qbmwzuihoq7as24.ipfs.w3s.link/manzanilla.jpeg',
+      readingTime: '2 min',
     },
     {
-      title: 'How to use search engine optimization to drive sales',
-      href: '#',
-      category: { name: 'Video', href: '#' },
+      title: 'Menta',
+      href: 'https://herbacare.onrender.com/remedios/hierba-de-menta',
+      category: { name: 'Expectorantes', href: 'https://herbacare.onrender.com/category/expectorantes' },
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
-      date: 'Mar 10, 2020',
-      datetime: '2020-03-10',
+        'La menta es una planta herbácea perenne perteneciente a la familia Lamiáceas. Es conocida por su característico aroma refrescante y su sabor mentolado. Sus hojas son de forma ovalada, con bordes dentados y presentan un intenso color verde brillante. Algunas variedades de menta pueden tener manchas más claras en sus hojas.',
+      date: 'August 03, 2023',
+      datetime: '2023-08-03',
       imageUrl:
-        'https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
-      readingTime: '4 min',
-      author: {
-        name: 'Brenna Goyette',
-        href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
+        'https://bafybeif444yhenobexqyza4jquronpckgsjmv3vbfwkhn62bpdjygzyd24.ipfs.w3s.link/menta.jpeg',
+      readingTime: '5 min',
     },
     {
-      title: 'Improve your customer experience',
-      href: '#',
-      category: { name: 'Case Study', href: '#' },
+      title: 'Orégano',
+      href: 'https://herbacare.onrender.com/remedios/hierba-oregano',
+      category: { name: 'Anti Inflamatorias', href: 'https://herbacare.onrender.com/category/anti_inflamatorias' },
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
-      date: 'Feb 12, 2020',
-      datetime: '2020-02-12',
+        'El Orégano es una planta herbácea aromática que pertenece a la familia Lamiáceas y es originaria de la región mediterránea. Sus hojas verdes y pequeñas contienen aceites esenciales con poderosas propiedades curativas. El orégano ha sido valorado por sus beneficios para la salud y su sabor distintivo en la cocina, lo que lo convierte en un recurso valioso para aquellos que buscan opciones naturales para mejorar su bienestar.',
+      date: 'August 03, 2023',
+      datetime: '2023-08-03',
       imageUrl:
-        'https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+        'https://images.eatsmarter.com/sites/default/files/oregano_us.gif',
       readingTime: '11 min',
-      author: {
-        name: 'Daniela Metz',
-        href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
     },
   ]
   
@@ -84,24 +66,11 @@ const posts = [
                     </a>
                   </div>
                   <div className="mt-6 flex items-center">
-                    <div className="flex-shrink-0">
-                      <a href={post.author.href}>
-                        <span className="sr-only">{post.author.name}</span>
-                        <img className="h-10 w-10 rounded-full" src={post.author.imageUrl} alt="" />
-                      </a>
-                    </div>
-                    <div className="ml-3">
-                      <p className="text-sm font-medium text-gray-900">
-                        <a href={post.author.href} className="hover:underline">
-                          {post.author.name}
-                        </a>
-                      </p>
                       <div className="flex space-x-1 text-sm text-gray-500">
                         <time dateTime={post.datetime}>{post.date}</time>
                         <span aria-hidden="true">&middot;</span>
                         <span>{post.readingTime} read</span>
                       </div>
-                    </div>
                   </div>
                 </div>
               </div>

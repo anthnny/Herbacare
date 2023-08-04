@@ -98,19 +98,11 @@ function Contact(){
       <div className="relative mx-auto max-w-7xl lg:grid lg:grid-cols-5">
         <div className="bg-white py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
           <div className="mx-auto max-w-lg">
-            <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Get in touch</h2>
+            <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Únete a nuestra comunidad</h2>
             <p className="mt-3 text-lg leading-6 text-gray-500">
-              Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus
-              arcu.
+              Ayúdanos ha ampliar el poder curativo de las plantas, con tu aporte seguro lo lograremos.
             </p>
             <dl className="mt-8 text-base text-gray-500">
-              <div>
-                <dt className="sr-only">Postal address</dt>
-                <dd>
-                  <p>742 Evergreen Terrace</p>
-                  <p>Springfield, OR 12345</p>
-                </dd>
-              </div>
               <div className="mt-6">
                 <dt className="sr-only">Phone number</dt>
                 <dd className="flex">
