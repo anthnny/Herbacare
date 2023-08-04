@@ -228,7 +228,7 @@ function Contact(){
                                 />
                             </Switch>
                             <p className="col-span-9 ml-4 text-md font-regular leading-6 text-gray-600">
-                                By selecting this you accept the <span className="text-blue-500"><Link to='/terms'>Terms of service</Link></span> and <span className="text-blue-500"><Link to='/privacy'>Privacy policy</Link></span>.
+                                Al seleccionar esta opcion, acepta los <span className="text-blue-500"><Link to='/terms'>Terminos y Condiciones </Link></span> y <span className="text-blue-500"><Link to='/privacy'>la Politica Seguridad</Link></span>.
                             </p>
                             
                         </div>

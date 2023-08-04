@@ -27,7 +27,7 @@ function PostDetail({
             {
                 post && post.slug === slug ?
                 <div className="pt-24">
-                <div className="relative bg-gray-200">
+                <div className="relative bg-white-200">
             <div className="absolute inset-0">
             <img
                 className="h-full w-full object-cover"
@@ -41,10 +41,10 @@ function PostDetail({
             <div className="min-w-0 flex-1 p-4 pt-8">
                         <div className="">
 
-                            <span className=" hover:text-green-500  mx-1 font-medium text-white-800 text-sm "><Link to={`/category/${post.category.slug}`}>{post.category.name}</Link></span> <span className="text-white-300">&middot;</span> 
-                            <span className="mt-2 ml-2 mr-1 font-medium text-white-800 text-sm">{moment(post.published).format('LL')}</span> <span className="text-white-300">&middot;</span>
-                            <span className="mt-2 mx-2 font-medium text-white-800 text-sm">{post.time_read} min read</span> 
-                            <p className="mt-4 text-lg font-regular text-white-800 leading-8">{post.description}</p>
+                            <span className=" hover:text-green-500  mx-1 font-medium text-white text-sm "><Link to={`/category/${post.category.slug}`}>{post.category.name}</Link></span> <span className="text-white-300">&middot;</span> 
+                            <span className="mt-2 ml-2 mr-1 font-medium text-white text-sm">{moment(post.published).format('LL')}</span> <span className="text-white-300">&middot;</span>
+                            <span className="mt-2 mx-2 font-medium text-white text-sm">{post.time_read} min read</span> 
+                            <p className="mt-4 text-lg font-regular text-white leading-8">{post.description}</p>
                         </div>
                     </div>
             </div>
