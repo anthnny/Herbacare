@@ -65,33 +65,14 @@ function Header(){
                 <h1 className="text-4xl font-semibold tracking-tight pb-8  sm:text-7xl">
                   Conócenos - Nuestro Equipo
                 </h1>
-                <p className="mt-6 text-2xl leading-10 text-black max-w-5xl">
-                Bienvenido/a a nuestra aplicación web dedicada a las hierbas medicinales y su uso terapéutico. Somos un equipo apasionado de cinco expertos que hemos unido nuestras habilidades para crear esta plataforma informativa y educativa sobre el maravilloso mundo de las hierbas medicinales.
-
-                Conoce a nuestro equipo:
-                Anderson Merchán Balcázar (Administrador del Proyecto): Desarrollador web y diseñador gráfico. Es el cerebro detrás de la interfaz amigable y atractiva de nuestra aplicación, asegurándose de que sea accesible para todos los usuarios.
-
-                Anthony López Martínez (Desarrollador Backend): Experto en botánica y amante de la naturaleza. Contribuye con su profundo conocimiento de las hierbas, sus propiedades medicinales y sus usos tradicionales.
-
-                Dary Pincay Pinta (Desarrollador Frontend): Especialista en medicina alternativa y terapias naturales. Aporta su experiencia en el campo de la herbolaria y proporciona información sobre cómo las hierbas pueden complementar el cuidado de la salud.
-
-                Michel Romero Ojeda (Especialista en Control de Pruebas): Redactor y editor de contenido. Se encarga de la redacción de artículos y guías sobre las hierbas, garantizando que la información sea precisa, clara y útil para nuestros visitantes.
-
-                Rubén Bones Benito (Especialista en Seguridad): Especialista en marketing digital y redes sociales. Se asegura de que nuestra aplicación llegue a la mayor cantidad de personas posible, para que todos puedan beneficiarse del conocimiento de las hierbas medicinales.
-
-                Nuestra Misión:
-                Nuestra misión es proporcionar información confiable y basada en evidencia sobre las hierbas medicinales y sus beneficios para la salud. Creemos en el poder de la naturaleza para sanar y queremos que todos tengan acceso a este conocimiento ancestral y valioso.
-
-                ¿Por qué usar HerbaCare?
-                Es apasionada a la herbolaria porque creemos en un enfoque holístico para el bienestar. Las hierbas medicinales ofrecen una forma natural y efectiva de mejorar la salud, aliviando dolencias y fomentando el equilibrio en el cuerpo y la mente. Queremos compartir esta pasión con nuestros usuarios y brindarles herramientas para que tomen decisiones informadas sobre su salud.
-
-                Únete a nuestra comunidad:
-                ¡Te invitamos a explorar nuestra aplicación web y unirte a nuestra comunidad! Esperamos que encuentres información valiosa sobre las hierbas medicinales y cómo pueden contribuir a tu bienestar. Si tienes preguntas, sugerencias o simplemente quieres compartir tus experiencias con nosotros, no dudes en ponerte en contacto. Estamos aquí para ayudarte en tu camino hacia una vida más saludable y natural.
-
-                ¡Gracias por visitarnos!
-
-                Equipo de HerbaCare
-                </p>
+                <div className="mt-6 text-2xl leading-10 text-black max-w-5xl">
+                Misión:
+                Promover el conocimiento y el uso responsable de las propiedades terapéuticas de las hierbas medicinales, proporcionando información confiable y valiosa para mejorar la salud y el bienestar de las personas de forma natural.
+                Visión:
+                Convertirnos en la plataforma líder en información sobre hierbas medicinales, siendo reconocidos por nuestra precisión, calidad y compromiso con la salud y el medio ambiente.
+                Propósito:
+                Nuestro propósito es empoderar a las personas a través del conocimiento de las plantas medicinales, brindándoles una herramienta confiable para tomar decisiones informadas sobre su bienestar y fomentando un enfoque más holístico hacia la salud.
+              </div>
                 <div className="absolute bottom-0 left-0 flex space-x-6 xl:mx-20 mx-6">
                 {navigation.social.map((item) => (
                   <a key={item.name} href={item.href} className="text-gray-900 hover:text-gray-800">

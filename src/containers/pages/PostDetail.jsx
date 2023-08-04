@@ -34,15 +34,15 @@ function PostDetail({
                 src={post.thumbnail}
                 alt=""
             />
-            <div className="absolute inset-0 bg-gray-200 mix-blend-multiply" aria-hidden="true" />
+            <div className="absolute inset-0 bg-white-200 mix-blend-multiply" aria-hidden="true" />
             </div>
             <div className="relative mx-auto max-w-7xl py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">{post.title}</h1>
             <div className="min-w-0 flex-1 p-4 pt-8">
                         <div className="">
 
-                            <span className=" hover:text-green-500  mx-1 font-medium text-white-800 text-sm "><Link to={`/category/${post.category.slug}`}>{post.category.name}</Link></span> <span className="text-gray-300">&middot;</span> 
-                            <span className="mt-2 ml-2 mr-1 font-medium text-white-800 text-sm">{moment(post.published).format('LL')}</span> <span className="text-gray-300">&middot;</span>
+                            <span className=" hover:text-green-500  mx-1 font-medium text-white-800 text-sm "><Link to={`/category/${post.category.slug}`}>{post.category.name}</Link></span> <span className="text-white-300">&middot;</span> 
+                            <span className="mt-2 ml-2 mr-1 font-medium text-white-800 text-sm">{moment(post.published).format('LL')}</span> <span className="text-white-300">&middot;</span>
                             <span className="mt-2 mx-2 font-medium text-white-800 text-sm">{post.time_read} min read</span> 
                             <p className="mt-4 text-lg font-regular text-white-800 leading-8">{post.description}</p>
                         </div>
@@ -54,7 +54,7 @@ function PostDetail({
             
             <div className="relative px-4 sm:px-6 lg:px-8">
                 
-            <div className="prose prose-lg max-w-6xl prose-indigo mx-auto mt-6 text-gray-500">
+            <div className="prose prose-lg max-w-6xl prose-indigo mx-auto mt-6 text-black-500">
                 <p dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(post.content)}} />
                 
                 
