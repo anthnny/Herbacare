@@ -70,9 +70,11 @@ function Header(){
                 <br/>
                 Promover el conocimiento y el uso responsable de las propiedades terapéuticas de las hierbas medicinales, proporcionando información confiable y valiosa para mejorar la salud y el bienestar de las personas de forma natural.
                 <br/>
+                <br/>
                 <h2>Visión:</h2>
                 <br/>
                 Convertirnos en la plataforma líder en información sobre hierbas medicinales, siendo reconocidos por nuestra precisión, calidad y compromiso con la salud y el medio ambiente.
+                <br/>
                 <br/>
                 <h2>Propósito:</h2>
                 <br/>
