@@ -25,7 +25,7 @@ function Search({
     useEffect(()=>{
         window.scrollTo(0,0)
         search_blog(term)
-    },[term, search_blog])
+    },[])
 
 
     return (
@@ -38,7 +38,7 @@ function Search({
             <div className="pt-24">
                 <div className="mx-auto max-w-full px-4 sm:px-6 lg:px-8">
                     <div className="mx-auto max-w-full my-10">
-                        <BlogList posts={posts} get_blog_list_page={search_blog_page} term={term} count={count} />
+                        <BlogList posts={posts&&posts} get_blog_list_page={search_blog_page} term={term} count={count&&count} />
                     </div>
                 </div>
             </div>
